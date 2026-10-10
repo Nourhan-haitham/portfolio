@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nourhan Haitham — Graphic Designer Portfolio</title>
+  <meta name="description" content="Official Graphic Design Portfolio of Nourhan Haitham. Showcasing creative visual design, brand identities, social media, logos, and marketing materials.">
+  <meta name="author" content="Nourhan Haitham">
+  
+  <!-- Google Fonts: Syne (Editorial Headings) & Plus Jakarta Sans (Clean Modern Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" aria-label="Nourhan Haitham Home">
+        <span class="logo-name">Nourhan Haitham</span>
+        <span class="logo-title">Graphic Designer</span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation -->
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#feedback" class="nav-link">Client Feedback</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 1. HOME PAGE — HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="hero-container">
+        
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Available for Freelance & Creative Projects</span>
+          </div>
+          
+          <h1 class="hero-name">Nourhan Haitham</h1>
+          <p class="hero-role">Graphic Designer</p>
+          
+          <p class="hero-intro">
+            A creative graphic designer focused on modern, professional, and visually compelling designs that elevate brand identities, communicate ideas with clarity, and inspire audiences.
+          </p>
+          
+          <div class="hero-actions">
+            <!-- View Projects Button (Smooth scroll to projects) -->
+            <a href="#projects" class="btn btn-primary" id="heroViewProjectsBtn">
+              <span>View Projects</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <!-- CV Button (Configurable link / upload ready) -->
+            <a href="assets/Nourhan_Haitham_CV.pdf" download="Nourhan_Haitham_CV.pdf" class="btn btn-secondary" id="heroCvBtn" title="Download or replace Nourhan Haitham CV">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="12" y1="18" x2="12" y2="12"></line>
+                <polyline points="9 15 12 18 15 15"></polyline>
+              </svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">Specialization</span>
+              <span class="meta-value">Branding & Social Media</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Egypt</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Software</span>
+              <span class="meta-value">Photoshop & Illustrator</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Photograph Placeholder -->
+        <div class="hero-photo-wrapper">
+          <div class="photo-frame" id="heroPhotoContainer">
+            <div class="photo-placeholder" id="photoPlaceholderArea">
+              <!-- Default state when awaiting user's photo -->
+           
+              <div class="placeholder-text">
+                <img src="assets/profile.jpeg" alt="">
+            </div>
+            
+            <!-- Soft editorial decorative geometric accents using Soft Pink & Sage Green -->
+            <div class="frame-accent-tag">Nourhan Haitham • Portfolio</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Biography</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text column with exact specified copy -->
+          <div class="about-card">
+            <div class="about-quote-mark">“</div>
+            <div class="about-paragraphs">
+              <p class="about-lead">
+                I'm Nourhan Haitham, a Graphic Designer specializing in creating modern and creative visual designs.
+              </p>
+              <p>
+                I can design logos, social media posts, banners, business cards, and brand identities, along with a wide range of graphic design projects.
+              </p>
+              <p>
+                I focus on creating clean, attractive, and professional designs that match each brand’s identity and communicate its ideas clearly.
+              </p>
+              <p>
+                I’m passionate about turning ideas into creative visual designs and always aim to deliver unique and high-quality work.
+              </p>
+            </div>
+
+            <!-- Signature / Identity Accents -->
+            <div class="about-footer-info">
+              <div class="designer-signature">Nourhan Haitham</div>
+              <span class="designer-tagline">Creative Graphic Designer</span>
+            </div>
+          </div>
+
+          <!-- Subtle editorial aesthetic side card -->
+          <div class="about-side-panel">
+            <div class="about-feature-box">
+              <span class="feature-number">01</span>
+              <h3 class="feature-title">Brand Identity</h3>
+              <p class="feature-desc">Building coherent, memorable visual languages from typography to custom palettes.</p>
+            </div>
+            <div class="about-feature-box">
+              <span class="feature-number">02</span>
+              <h3 class="feature-title">Social Content</h3>
+              <p class="feature-desc">Engaging social media campaigns crafted to catch attention and communicate ideas.</p>
+            </div>
+            <div class="about-feature-box">
+              <span class="feature-number">03</span>
+              <h3 class="feature-title">Print & Digital</h3>
+              <p class="feature-desc">High-precision business cards, flyers, posters, and promotional banner layouts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. MY EDUCATION ==================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">My Education</h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="education-container">
+          <div class="education-card">
+            <div class="edu-top-row">
+              <div class="edu-institution-info">
+                <div class="edu-icon-badge">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="edu-title">Faculty of Sports Sciences – Zagazig University</h3>
+                  <div class="edu-status-row">
+                    <span class="status-pill graduated-pill">Graduated</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Grade: Excellent in visually distinctive Sage Green badge -->
+              <div class="grade-badge" aria-label="Grade: Excellent">
+                <span class="grade-star">⭐</span>
+                <span class="grade-label">Grade:</span>
+                <strong class="grade-value">Excellent</strong>
+              </div>
+            </div>
+
+            <div class="edu-divider"></div>
+
+            <p class="edu-description">
+              Comprehensive education in sports sciences, combining theoretical knowledge with practical training in sports, physical education, coaching, and athletic performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. MY EXPERIENCE ==================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Professional Pathway</span>
+          <h2 class="section-title">My Experience</h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Timeline Card -->
+          <div class="experience-card">
+            <div class="exp-timeline-dot"></div>
+            
+            <div class="exp-header">
+              <div class="exp-title-group">
+                <span class="exp-role">Graphic Design Trainee</span>
+                <span class="exp-org-badge">NTI</span>
+              </div>
+              <div class="exp-date-badge">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>2026 – Present</span>
+              </div>
+            </div>
+
+            <p class="exp-description">
+              Developed practical skills in graphic design, learning how to create professional and visually engaging designs using Adobe Photoshop and Illustrator. Worked on different design projects, including social media posts, logos, business cards, brand identities, and promotional materials.
+            </p>
+
+            <div class="exp-tags">
+              <span class="tag-pill">Adobe Photoshop</span>
+              <span class="tag-pill">Adobe Illustrator</span>
+              <span class="tag-pill">Social Media</span>
+              <span class="tag-pill">Brand Identities</span>
+              <span class="tag-pill">Promotional Materials</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. MY SKILLS ==================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Capabilities & Competencies</span>
+          <h2 class="section-title">My Skills</h2>
+          <div class="section-bar"></div>
+          <p class="section-subtitle">Proficiency across foundational design theory, creative software, and commercial deliverables.</p>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- 1. Logo Design — 95% -->
+          <div class="skill-card" data-skill="Logo Design" data-percent="95">
+            <div class="skill-info">
+              <span class="skill-name">Logo Design</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- 2. Social Media Design — 95% -->
+          <div class="skill-card" data-skill="Social Media Design" data-percent="95">
+            <div class="skill-info">
+              <span class="skill-name">Social Media Design</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- 3. Brand Identity — 90% -->
+          <div class="skill-card" data-skill="Brand Identity" data-percent="90">
+            <div class="skill-info">
+              <span class="skill-name">Brand Identity</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- 4. Adobe Photoshop — 90% -->
+          <div class="skill-card" data-skill="Adobe Photoshop" data-percent="90">
+            <div class="skill-info">
+              <span class="skill-name">Adobe Photoshop</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- 5. Adobe Illustrator — 90% -->
+          <div class="skill-card" data-skill="Adobe Illustrator" data-percent="90">
+            <div class="skill-info">
+              <span class="skill-name">Adobe Illustrator</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- 6. Flyer & Poster Design — 90% -->
+          <div class="skill-card" data-skill="Flyer & Poster Design" data-percent="90">
+            <div class="skill-info">
+              <span class="skill-name">Flyer & Poster Design</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- 7. Banner Design — 88% -->
+          <div class="skill-card" data-skill="Banner Design" data-percent="88">
+            <div class="skill-info">
+              <span class="skill-name">Banner Design</span>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- 8. Business Card Design — 90% -->
+          <div class="skill-card" data-skill="Business Card Design" data-percent="90">
+            <div class="skill-info">
+              <span class="skill-name">Business Card Design</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- 9. Typography — 85% -->
+          <div class="skill-card" data-skill="Typography" data-percent="85">
+            <div class="skill-info">
+              <span class="skill-name">Typography</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 85%;"></div>
+            </div>
+          </div>
+
+          <!-- 10. Color Theory — 88% -->
+          <div class="skill-card" data-skill="Color Theory" data-percent="88">
+            <div class="skill-info">
+              <span class="skill-name">Color Theory</span>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- 11. Image Editing — 90% -->
+          <div class="skill-card" data-skill="Image Editing" data-percent="90">
+            <div class="skill-info">
+              <span class="skill-name">Image Editing</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- 12. Visual Composition — 88% -->
+          <div class="skill-card" data-skill="Visual Composition" data-percent="88">
+            <div class="skill-info">
+              <span class="skill-name">Visual Composition</span>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" style="--target-width: 88%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. MY PROJECTS — MAIN PORTFOLIO GALLERY ==================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Works</span>
+          <h2 class="section-title">My Projects</h2>
+          <div class="section-bar"></div>
+          <p class="section-subtitle">Dedicated gallery of design projects, brand visual systems, and marketing assets.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="projects-filter-bar" role="tablist" aria-label="Project Category Filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button class="filter-btn" data-filter="Logo Design" role="tab" aria-selected="false">Logo Design</button>
+          <button class="filter-btn" data-filter="Social Media Design" role="tab" aria-selected="false">Social Media Design</button>
+          <button class="filter-btn" data-filter="Brand Identity" role="tab" aria-selected="false">Brand Identity</button>
+          <button class="filter-btn" data-filter="Marketing Design" role="tab" aria-selected="false">Marketing Design</button>
+        </div>
+
+        <!-- Gallery Grid of At Least 6 Empty Reusable Project Cards -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- Project Card 01 -->
+          <article class="project-card" data-category="Brand Identity" data-id="1">
+            <div class="card-media-wrapper">
+              <img src="assets/project.jpeg" alt="">
+              <span class="card-category-badge">Brand Identity</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meta-line">
+                <span class="card-client-placeholder">Client: Client / Brand Name</span>
+                <span class="card-year-placeholder">2026</span>
+              </div>
+              <h3 class="card-title-placeholder">  </h3>
+              <p class="card-desc-placeholder">
+                Short project overview and creative concept for this brand identity assignment. Replace with your custom description.
+              </p>
+              <div class="card-action">
+                <button type="button" class="btn btn-outline view-project-btn" data-project-id="1">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 02 -->
+          <article class="project-card" data-category="Logo Design" data-id="2">
+            <div class="card-media-wrapper">
+              <div class="image-placeholder-box" id="projectPlaceholder2">
+                <div class="placeholder-icon-wrap">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                </div>
+                <span class="ph-label">Project Cover Placeholder</span>
+               
+                <input type="file" id="projectInput2" data-target-img="projectImg2" accept="image/*" class="sr-only project-file-input">
+                <img assets
+              </div>
+              <span class="card-category-badge">Logo Design</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meta-line">
+                <span class="card-client-placeholder">Client: Client / Brand Name</span>
+                <span class="card-year-placeholder">2026</span>
+              </div>
+              <h3 class="card-title-placeholder">Project Title 02</h3>
+              <p class="card-desc-placeholder">
+                Unique logo design and visual mark tailored for modern branding. Replace with your custom project notes.
+              </p>
+              <div class="card-action">
+                <button type="button" class="btn btn-outline view-project-btn" data-project-id="2">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 03 -->
+          <article class="project-card" data-category="Social Media Design" data-id="3">
+            <div class="card-media-wrapper">
+              <div class="image-placeholder-box" id="projectPlaceholder3">
+                <div class="placeholder-icon-wrap">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                </div>
+                <span class="ph-label">Project Cover Placeholder</span>
+                <span class="ph-sub">Ready for design image upload</span>
+                <label for="projectInput3" class="card-upload-label" title="Preview your design cover">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                  </svg>
+                  <span>Select Image</span>
+                </label>
+                <input type="file" id="projectInput3" data-target-img="projectImg3" accept="image/*" class="sr-only project-file-input">
+                <img id="projectImg3" alt="Project Cover" class="uploaded-card-img hidden">
+              </div>
+              <span class="card-category-badge">Social Media Design</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meta-line">
+                <span class="card-client-placeholder">Client: Client / Brand Name</span>
+                <span class="card-year-placeholder">2026</span>
+              </div>
+              <h3 class="card-title-placeholder">Project Title 03</h3>
+              <p class="card-desc-placeholder">
+                Engaging social media post campaign designed to drive community engagement and build brand recognition.
+              </p>
+              <div class="card-action">
+                <button type="button" class="btn btn-outline view-project-btn" data-project-id="3">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 04 -->
+          <article class="project-card" data-category="Marketing Design" data-id="4">
+            <div class="card-media-wrapper">
+              <div class="image-placeholder-box" id="projectPlaceholder4">
+                <div class="placeholder-icon-wrap">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                </div>
+                <span class="ph-label">Project Cover Placeholder</span>
+                <span class="ph-sub">Ready for design image upload</span>
+                <label for="projectInput4" class="card-upload-label" title="Preview your design cover">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                  </svg>
+                  <span>Select Image</span>
+                </label>
+                <input type="file" id="projectInput4" data-target-img="projectImg4" accept="image/*" class="sr-only project-file-input">
+                <img id="projectImg4" alt="Project Cover" class="uploaded-card-img hidden">
+              </div>
+              <span class="card-category-badge">Marketing Design</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meta-line">
+                <span class="card-client-placeholder">Client: Client / Brand Name</span>
+                <span class="card-year-placeholder">2026</span>
+              </div>
+              <h3 class="card-title-placeholder">Project Title 04</h3>
+              <p class="card-desc-placeholder">
+                Flyer, poster, and promotional banner layouts crafted for clear messaging and high visual impact.
+              </p>
+              <div class="card-action">
+                <button type="button" class="btn btn-outline view-project-btn" data-project-id="4">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 05 -->
+          <article class="project-card" data-category="Brand Identity" data-id="5">
+            <div class="card-media-wrapper">
+              <div class="image-placeholder-box" id="projectPlaceholder5">
+                <div class="placeholder-icon-wrap">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                </div>
+                <span class="ph-label">Project Cover Placeholder</span>
+                <span class="ph-sub">Ready for design image upload</span>
+                <label for="projectInput5" class="card-upload-label" title="Preview your design cover">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                  </svg>
+                  <span>Select Image</span>
+                </label>
+                <input type="file" id="projectInput5" data-target-img="projectImg5" accept="image/*" class="sr-only project-file-input">
+                <img id="projectImg5" alt="Project Cover" class="uploaded-card-img hidden">
+              </div>
+              <span class="card-category-badge">Brand Identity</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meta-line">
+                <span class="card-client-placeholder">Client: Client / Brand Name</span>
+                <span class="card-year-placeholder">2026</span>
+              </div>
+              <h3 class="card-title-placeholder">Project Title 05</h3>
+              <p class="card-desc-placeholder">
+                Complete stationery and corporate identity suite including business cards, letterheads, and style guidelines.
+              </p>
+              <div class="card-action">
+                <button type="button" class="btn btn-outline view-project-btn" data-project-id="5">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 06 -->
+          <article class="project-card" data-category="Social Media Design" data-id="6">
+            <div class="card-media-wrapper">
+              <div class="image-placeholder-box" id="projectPlaceholder6">
+                <div class="placeholder-icon-wrap">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                </div>
+                <span class="ph-label">Project Cover Placeholder</span>
+                <span class="ph-sub">Ready for design image upload</span>
+                <label for="projectInput6" class="card-upload-label" title="Preview your design cover">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                  </svg>
+                  <span>Select Image</span>
+                </label>
+                <input type="file" id="projectInput6" data-target-img="projectImg6" accept="image/*" class="sr-only project-file-input">
+                <img id="projectImg6" alt="Project Cover" class="uploaded-card-img hidden">
+              </div>
+              <span class="card-category-badge">Social Media Design</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meta-line">
+                <span class="card-client-placeholder">Client: Client / Brand Name</span>
+                <span class="card-year-placeholder">2026</span>
+              </div>
+              <h3 class="card-title-placeholder">Project Title 06</h3>
+              <p class="card-desc-placeholder">
+                Creative social media storytelling series featuring custom illustrations, typography, and cohesive aesthetics.
+              </p>
+              <div class="card-action">
+                <button type="button" class="btn btn-outline view-project-btn" data-project-id="6">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. CLIENT FEEDBACK ==================== -->
+    <section class="section feedback-section" id="feedback">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">Client Feedback</h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="feedback-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Rating: 5 out of 5 stars">
+              <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              “The design was creative, professional, and exactly what I was looking for. The attention to detail and color choices were excellent.”
+            </blockquote>
+            <div class="testimonial-footer">
+              <div class="testimonial-project-tag">Social Media Design Project</div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Rating: 5 out of 5 stars">
+              <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              “I really loved the logo design. It was simple, elegant, and perfectly represented the brand identity.”
+            </blockquote>
+            <div class="testimonial-footer">
+              <div class="testimonial-project-tag">Logo Design Project</div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Rating: 5 out of 5 stars">
+              <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              “Very creative work with great attention to typography and visual balance. The final design looked professional and modern.”
+            </blockquote>
+            <div class="testimonial-footer">
+              <div class="testimonial-project-tag">Brand Identity Project</div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Rating: 5 out of 5 stars">
+              <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              “The flyer and banner designs were eye-catching and well organized. The overall quality exceeded my expectations.”
+            </blockquote>
+            <div class="testimonial-footer">
+              <div class="testimonial-project-tag">Marketing Design Project</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Overall Project Rating Component (Configurable placeholder) -->
+        <div class="overall-rating-container">
+          <div class="overall-rating-card">
+            <div class="rating-header-wrap">
+              <h3 class="overall-rating-title">Overall Project Rating</h3>
+              <p class="rating-subtext">Verified satisfaction across all design disciplines</p>
+            </div>
+            
+            <div class="rating-display-box">
+              <div class="rating-stars-badge">
+                <span class="stars-icons">⭐⭐⭐⭐⭐</span>
+                <span class="rating-placeholder-text">[ Overall Rating: Configurable Placeholder ]</span>
+              </div>
+              <div class="rating-note">
+                <span>5.0 / 5.0 Average Rating Placeholder • Ready for verified score addition</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 8. MY SERVICES ==================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What I Offer</span>
+          <h2 class="section-title">My Services</h2>
+          <div class="section-bar"></div>
+          <p class="section-subtitle">Tailored creative graphic design solutions created with purpose, aesthetic precision, and brand alignment.</p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service 1: Social Media Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Social Media Design</h3>
+            <p class="service-description">
+              Creating creative and engaging social media designs that match the brand identity and attract the target audience.
+            </p>
+            <div class="service-number">01</div>
+          </div>
+
+          <!-- Service 2: Logo Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Logo Design</h3>
+            <p class="service-description">
+              Designing unique and memorable logos that reflect the brand’s personality and visual identity.
+            </p>
+            <div class="service-number">02</div>
+          </div>
+
+          <!-- Service 3: Brand Identity Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Brand Identity Design</h3>
+            <p class="service-description">
+              Creating cohesive visual identities including colors, typography, and graphic elements.
+            </p>
+            <div class="service-number">03</div>
+          </div>
+
+          <!-- Service 4: Business Card Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <line x1="6" y1="9" x2="12" y2="9"></line>
+                <line x1="6" y1="13" x2="10" y2="13"></line>
+                <circle cx="16" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Business Card Design</h3>
+            <p class="service-description">
+              Designing professional and elegant business cards that represent the brand effectively.
+            </p>
+            <div class="service-number">04</div>
+          </div>
+
+          <!-- Service 5: Flyer & Poster Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Flyer & Poster Design</h3>
+            <p class="service-description">
+              Creating eye-catching flyers and posters for promotions, events, and marketing campaigns.
+            </p>
+            <div class="service-number">05</div>
+          </div>
+
+          <!-- Service 6: Banner Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                <path d="M7 12h10"></path>
+                <path d="M12 9l3 3-3 3"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Banner Design</h3>
+            <p class="service-description">
+              Designing attractive digital and promotional banners for different platforms and purposes.
+            </p>
+            <div class="service-number">06</div>
+          </div>
+
+          <!-- Service 7: Marketing Materials -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Marketing Materials</h3>
+            <p class="service-description">
+              Creating professional visual materials that help brands communicate their message clearly and effectively.
+            </p>
+            <div class="service-number">07</div>
+          </div>
+
+          <!-- Service 8: Creative Graphic Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+                <circle cx="12" cy="12" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Creative Graphic Design</h3>
+            <p class="service-description">
+              Developing customized and creative designs based on each client’s needs, style, and brand identity.
+            </p>
+            <div class="service-number">08</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. GET IN TOUCH ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Start a Collaboration</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Introduction & Details Panel (Soft Pink Surface) -->
+          <div class="contact-info-panel">
+            <div class="contact-intro-content">
+              <h3 class="contact-cta-heading">Let's Work Together</h3>
+              <p class="contact-lead-1">
+                Have a project in mind or need a creative design for your brand?
+              </p>
+              <p class="contact-lead-2">
+                I’d love to hear from you and bring your ideas to life.
+              </p>
+            </div>
+
+            <div class="contact-methods">
+              
+              <!-- WhatsApp Contact Box -->
+              <a href="https://wa.me/201002816904" target="_blank" rel="noopener noreferrer" class="contact-method-card" aria-label="Chat on WhatsApp: 01002816904">
+                <div class="method-icon-circle whatsapp-circle">
+                  <!-- WhatsApp Clean Vector Icon -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">WhatsApp</span>
+                  <span class="method-val">01002816904</span>
+                </div>
+                <div class="method-arrow">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </div>
+              </a>
+
+              <!-- Email Contact Box -->
+              <a href="mailto:nourshaarawy86@gmail.com" class="contact-method-card" aria-label="Send an email to nourshaarawy86@gmail.com">
+                <div class="method-icon-circle email-circle">
+                  <!-- Email Vector Icon -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">Email</span>
+                  <span class="method-val">nourshaarawy86@gmail.com</span>
+                </div>
+                <div class="method-arrow">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Optional Contact Form -->
+          <div class="contact-form-panel">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-sub">Fill out the details below and it will compose your email directly to Nourhan.</p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="userName">Name <span class="required-star">*</span></label>
+                <input type="text" id="userName" name="name" class="form-control" placeholder="Your full name" required>
+                <span class="field-error" id="nameError">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail">Email <span class="required-star">*</span></label>
+                <input type="email" id="userEmail" name="email" class="form-control" placeholder="your.email@example.com" required>
+                <span class="field-error" id="emailError">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="userSubject">Subject <span class="required-star">*</span></label>
+                <input type="text" id="userSubject" name="subject" class="form-control" placeholder="e.g. Brand Identity Inquiry" required>
+                <span class="field-error" id="subjectError">Please provide a subject</span>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage">Message <span class="required-star">*</span></label>
+                <textarea id="userMessage" name="message" rows="5" class="form-control" placeholder="Tell me about your project, goals, and timeline..." required></textarea>
+                <span class="field-error" id="messageError">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="contactSubmitBtn">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div class="form-feedback hidden" id="formFeedback">
+                <p class="feedback-text"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== 10. NAVIGATION AND FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Nourhan Haitham</span>
+          <span class="footer-title">Graphic Designer</span>
+          <p class="footer-bio">Modern & creative visual designs crafted with purpose and precision.</p>
+        </div>
+
+        <div class="footer-nav-col">
+          <span class="footer-col-heading">Navigation</span>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <span class="footer-col-heading">Portfolio</span>
+          <ul class="footer-links">
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#feedback">Client Feedback</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <span class="footer-col-heading">Connect</span>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/201002816904" target="_blank" rel="noopener noreferrer">WhatsApp: 01002816904</a></li>
+            <li><a href="mailto:nourshaarawy86@gmail.com">nourshaarawy86@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 Nourhan Haitham. All rights reserved. Graphic Designer.
+        </p>
+
+        <!-- Back to Top Button -->
+        <a href="#home" class="back-to-top" id="backToTopBtn" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== DEDICATED PROJECT DETAILS MODAL ==================== -->
+  <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-category-wrap">
+          <span class="modal-category" id="modalProjectCategory">Brand Identity</span>
+          <span class="modal-client" id="modalProjectClient">Client: Brand Name</span>
+        </div>
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close project details">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalProjectTitle">Project Title</h2>
+        <div class="modal-meta-bar">
+          <span class="modal-date" id="modalProjectDate">Year: 2026</span>
+          <span class="meta-dot">•</span>
+          <span class="modal-tools" id="modalProjectTools">Tools: Adobe Photoshop, Adobe Illustrator</span>
+        </div>
+
+        <!-- Main Cover Image Placeholder -->
+        <div class="modal-cover-wrap">
+          <div class="modal-cover-placeholder" id="modalMainCoverPlaceholder">
+            <div class="modal-ph-inner">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+              <p class="modal-ph-title">Main Project Cover Image Placeholder</p>
+              <p class="modal-ph-note">Replaceable with your high-resolution graphic design presentation</p>
+            </div>
+            <img id="modalCoverImg" alt="Main Project Presentation" class="modal-cover-img hidden">
+          </div>
+        </div>
+
+        <!-- Full Project Description & Concept -->
+        <div class="modal-section-block">
+          <h3 class="modal-section-heading">Full Project Description</h3>
+          <p class="modal-text" id="modalFullDescription">
+            Comprehensive presentation of the design challenge, visual direction, and final solution crafted for this brand. All fields are fully customizable.
+          </p>
+        </div>
+
+        <div class="modal-details-grid">
+          <!-- Objectives & Creative Concept -->
+          <div class="modal-detail-card">
+            <h4 class="modal-subheading">Project Objectives & Creative Concept</h4>
+            <p class="modal-text-sm" id="modalObjectives">
+              Establish a distinctive visual voice, communicate core value propositions, and maintain consistency across all customer touchpoints.
+            </p>
+          </div>
+
+          <!-- Design Process -->
+          <div class="modal-detail-card">
+            <h4 class="modal-subheading">Design Process</h4>
+            <p class="modal-text-sm" id="modalProcess">
+              Research & Moodboard &rarr; Sketching & Ideation &rarr; Vector Creation in Adobe Illustrator &rarr; Refinement & Presentation in Adobe Photoshop.
+            </p>
+          </div>
+        </div>
+
+        <!-- Color Palette Swatches -->
+        <div class="modal-section-block">
+          <h3 class="modal-section-heading">Color Palette</h3>
+          <div class="modal-palette-row" id="modalPaletteRow">
+            <div class="palette-swatch-item">
+              <div class="swatch-color" style="background-color: #B8CFB3;"></div>
+              <span class="swatch-hex">#B8CFB3</span>
+              <span class="swatch-name">Sage Green</span>
+            </div>
+            <div class="palette-swatch-item">
+              <div class="swatch-color" style="background-color: #F6E2E9;"></div>
+              <span class="swatch-hex">#F6E2E9</span>
+              <span class="swatch-name">Soft Pink</span>
+            </div>
+            <div class="palette-swatch-item">
+              <div class="swatch-color" style="background-color: #FEFAF3;"></div>
+              <span class="swatch-hex">#FEFAF3</span>
+              <span class="swatch-name">Warm Ivory</span>
+            </div>
+            <div class="palette-swatch-item">
+              <div class="swatch-color" style="background-color: #1C1E1B;"></div>
+              <span class="swatch-hex">#1C1E1B</span>
+              <span class="swatch-name">Dark Charcoal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Typography Details -->
+        <div class="modal-section-block">
+          <h3 class="modal-section-heading">Typography Details</h3>
+          <div class="modal-typography-box" id="modalTypographyBox">
+            <div class="typo-item">
+              <span class="typo-label">Primary Display:</span>
+              <span class="typo-val">Syne / Modern Editorial Sans-Serif</span>
+            </div>
+            <div class="typo-item">
+              <span class="typo-label">Body & Technical:</span>
+              <span class="typo-val">Plus Jakarta Sans / Clean Geometric Sans</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools Used -->
+        <div class="modal-section-block">
+          <h3 class="modal-section-heading">Tools Used</h3>
+          <div class="modal-tools-tags" id="modalToolsTags">
+            <span class="tag-pill">Adobe Photoshop</span>
+            <span class="tag-pill">Adobe Illustrator</span>
+          </div>
+        </div>
+
+        <!-- Multiple Additional Images or Mockups Placeholders -->
+        <div class="modal-section-block">
+          <h3 class="modal-section-heading">Additional Mockups & Final Presentation</h3>
+          <div class="modal-mockups-grid">
+            <div class="mockup-placeholder-card">
+              <div class="mockup-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <span class="mockup-label">Mockup 01 Placeholder</span>
+              <span class="mockup-sub">Social / Digital Screen Presentation</span>
+            </div>
+
+            <div class="mockup-placeholder-card">
+              <div class="mockup-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <span class="mockup-label">Mockup 02 Placeholder</span>
+              <span class="mockup-sub">Print / Stationery Presentation</span>
+            </div>
+
+            <div class="mockup-placeholder-card">
+              <div class="mockup-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </div>
+              <span class="mockup-label">Mockup 03 Placeholder</span>
+              <span class="mockup-sub">Mobile / Brand Assets Layout</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Optional Project Links -->
+        <div class="modal-section-block modal-links-block" id="modalLinksBlock">
+          <div class="modal-link-wrap">
+            <span class="modal-link-hint">Optional Project Link:</span>
+            <a href="https://wa.me/201002816904" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <span>Inquire About This Design</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
